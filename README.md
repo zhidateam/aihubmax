@@ -1,2 +1,1 @@
-# aihubmax
-aihubmax python SDK
+# aihubmax-python sdk
