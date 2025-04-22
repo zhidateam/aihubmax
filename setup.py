@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="aihubmax",
-    version="0.1.0",
+    version="0.1.13",
     author="zhidateam",
     author_email="zhidateam@163.com",
     description="aihubmax的python sdk",
@@ -20,6 +20,7 @@ setup(
     ],
     python_requires=">=3.8",
     install_requires=[
+        "zdpytools>=0.1.13",
         "loguru>=0.7.3",
         "httpx>=0.27.2",
         "pyyaml>=6.0.2",
